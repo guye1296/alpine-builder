@@ -7,6 +7,5 @@ profile_v86() {
 	arch="x86"
 	output_format="iso"
 	kernel_addons="xtables-addons"
-	apks="$apks bash python python3"
+	apks="$apks bash python3 vim less gzip gcc make"
 }
-
