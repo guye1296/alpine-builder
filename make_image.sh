@@ -7,4 +7,4 @@ git apply /config-lts.x86.diff
 
 # build
 cd /aports/scripts
-./mkimage.sh --tag edge --outdir /out --arch x86 --repository http://dl-cdn.alpinelinux.org/alpine/edge/main
+./mkimage.sh --tag edge-v86 --outdir /out --arch x86 --repository http://dl-cdn.alpinelinux.org/alpine/edge/main --profile v86

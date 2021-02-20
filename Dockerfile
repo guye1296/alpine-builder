@@ -12,4 +12,6 @@ RUN apk update
 COPY config-lts.x86.diff /
 COPY make_image.sh /
 
+COPY mkimg.v86.sh /aports/scripts
+
 ENTRYPOINT ["/bin/sh", "/make_image.sh"]
